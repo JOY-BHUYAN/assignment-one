@@ -24,10 +24,33 @@
     color:rgba(255, 255, 255, 1) ;
 }
 
+
+.btn-primary{
+    background-color:#4E47FF ;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color:#FFFFFF ;
+    padding: 13px 36px;
+
 /* nav styles */
+
+
+
+
+
+
+
+}
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:30px 150px ;
+
+    
 }
 
 .nav-title{
@@ -35,3 +58,10 @@ nav{
     font-size: 34px;
 
 }
+
+ul li{
+    list-style: none;
+    font-size:16px ;
+    
+}
+
