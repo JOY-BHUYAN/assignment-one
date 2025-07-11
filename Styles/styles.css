@@ -148,3 +148,14 @@ ul li{
     font-weight:bold ;
 }
 
+/* lead-form styles */
+
+.action-text{
+    font-size: 95px;
+    font-weight: bold;
+}
+
+.lead-form{
+    display: flex;
+    margin: 120px 150px 134px 150px;
+}
