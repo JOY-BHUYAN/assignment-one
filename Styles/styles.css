@@ -1,0 +1,37 @@
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared styles */
+
+.primary-color{
+    color: #4E47FF;
+}
+
+.secondary-color{
+    color:#252432 ;
+
+}
+.tertiary-color{
+    color:rgba(37, 36, 50, 0.5) ;
+
+}
+
+.quaternary.color{
+    color:rgba(255, 255, 255, 1) ;
+}
+
+/* nav styles */
+
+nav{
+    display: flex;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 34px;
+
+}
