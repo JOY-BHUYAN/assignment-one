@@ -42,7 +42,16 @@
     border-radius: 5px;
     color:#FFFFFF ;
     padding: 13px 36px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    
 
+}
+
+.h.btn:hover{
+  background-color: blue;
+  color: white;
 }
 
 .text-size{
