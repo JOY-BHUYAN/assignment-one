@@ -197,3 +197,26 @@ ul li{
 
     
 }
+
+/* footer styles */
+
+.footer logo{
+    width: 291px;
+    height: 121px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+   
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    text-align: center;
+    margin: 104px 450px;
+}
+
+
