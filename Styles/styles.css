@@ -5,6 +5,16 @@
   font-style: normal;
 }
 
+/* header styles */
+
+.header{
+    background-image: url('/images/Hero-bg.png');
+    background-repeat: no-repeat;
+    width: 100% ;
+    height: 698px;
+   
+}
+
 /* shared styles */
 
 .primary-color{
@@ -24,7 +34,6 @@
     color:rgba(255, 255, 255, 1) ;
 }
 
-
 .btn-primary{
     background-color:#4E47FF ;
     font-weight: bold;
@@ -34,21 +43,23 @@
     color:#FFFFFF ;
     padding: 13px 36px;
 
+}
+
+.text-size{
+    font-size:80px ;
+    font-weight: bold;
+    margin-bottom:0px ;
+}
+
 /* nav styles */
 
 
-
-
-
-
-
-}
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:30px 150px ;
+    margin:0px 150px ;
 
     
 }
@@ -63,5 +74,77 @@ ul li{
     list-style: none;
     font-size:16px ;
     
+}
+
+/* banner styles */
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.banner{
+    text-align: center;
+    margin: 100px 250px;
+
+    
+
+}
+
+/* action section styles */
+
+.action-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px;
+}
+
+.action-text-items{
+    padding: 62.5px 220px 62.5px 0px;
+}
+
+.action-image-item{
+    border-radius: 48px;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-discription{
+    font-size: 16px;
+
+}
+
+/* profile styles */
+
+.profile-matrics{
+    display: flex;
+    font-family:serif;
+    justify-content: space-around;
+
+    
+}
+
+.profile-items{
+    text-align: center;
+    padding: 50px 142px;
+
+    
+}
+
+.profile{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 120px 150px 134px 150px;
+    border-radius: 20px;
+
+}
+
+.profile-title{
+    margin-bottom: 40;
+    font-size: 38px;
+    font-weight:bold ;
 }
 
